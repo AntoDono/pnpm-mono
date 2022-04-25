@@ -1,0 +1,22 @@
+{
+  "name": "pnpm-mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-all": "concurrently \"pnpm run serve --filter @pnpm-mono/website\" \"pnpm run serve --filter @pnpm-mono/shop\" \"pnpm run start --filter @pnpm-mono/api\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoDono/pnpm-mono.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoDono/pnpm-mono/issues"
+  },
+  "homepage": "https://github.com/AntoDono/pnpm-mono#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
